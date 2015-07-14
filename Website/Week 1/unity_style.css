@@ -1,0 +1,81 @@
+body {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+#header{
+    position:fixed;
+    margin:-92px -20px 0px -10px;
+    z-index:2;
+    width:150%;
+    height:80px;
+	background-color:#000000;
+}
+#uheader{
+	position:fixed;
+    margin:-85px -20px 0px -10px;
+    z-index:1;
+    width:150%;
+    height:80px;
+	background-color:#0000FF;
+}
+#header ul{
+	list-style:none;
+}
+#header li{
+	display:inline;
+	word-spacing: 30px;
+}
+#header strong{
+	color:#0000FF;
+	font-size:35px;
+}
+/*Header link styles colour*/
+#header a:link, #header a:visited, #header a:active, #header a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+}
+a:link, a:visited {
+	color: #000;
+}
+a:active, a:hover {
+	color: #666;
+}
+p.header {
+	font-size: small;
+}
+p.header span {
+	font-weight: bold;
+}
+p.footer {
+	font-size: x-small;
+}
+div.content {
+	margin: auto;
+	width: 1280px;
+}
+div.broken, div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a, div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img, div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+div#unityPlayer {
+	cursor: default;
+	height: 1024px;
+	width: 1280px;
+}

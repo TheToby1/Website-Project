@@ -1,0 +1,113 @@
+div{
+    background-color:#E6E6E6;
+}
+body{
+	background-color:#E6E6E6;
+}
+#header{
+    position:fixed;
+    margin:-20px -20px 0px -10px;
+    z-index:2;
+    width:150%;
+    height:70px;
+	background-color:#000000;
+}
+#uheader{
+	position:fixed;
+    margin:-15px -20px 0px -10px;
+    z-index:1;
+    width:150%;
+    height:70px;
+	background-color:#0000FF;
+}
+#header ul{
+	list-style:none;
+}
+#header li{
+	display:inline;
+	word-spacing: 30px;
+}
+#header strong{
+	color:#0000FF;
+	font-size:25px;
+}
+/*Header link styles colour*/
+#header a:link, #header a:visited, #header a:active, #header a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:15px;
+}
+.main{
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+}
+.left{
+    background-color:#E6E6E6;
+    position:relative;
+	width:50%;
+    height:130%;
+	margin-top:85px;
+	float:left;
+	margin-left:10%;
+}
+.right{
+	background-color:#E6E6E6;
+    position:relative;
+	width:15%;
+    height:130%;
+	margin-top:85px;
+	float:right;
+	margin-right:25%;
+}
+#footer{
+    position:relative;
+    width:150%;
+    height:50px;
+	clear:both;
+	margin-left:-10px;
+	margin-bottom:-10px;
+	bottom:0;
+	background-color:#000000;
+}
+.unity{
+    background-color:#E6E6E6;
+    position:relative;
+	margin-top:100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+p.header {
+	font-size: small;
+}
+p.header span {
+	font-weight: bold;
+}
+p.footer {
+	text-align:center;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+div.broken, div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a, div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img, div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+div#unityPlayer {
+	cursor: default;
+	height: 640px;
+	width: 512px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link id = "pstyle" type="text/css" rel="stylesheet" href="CSS/stylesheet_W06.css"/>
+		<title>Tobias Burns</title>
+		<link rel="icon" href="T.ico"/>
+		
+		<script>
+			function swapStyle(sheet){
+				document.getElementById('pstyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	<body onload="cookiestart()">
+	    <header>
+			<nav>
+				<ul class = "menu">
+					<li>
+						<a href = "Index_W06.html">T|Burns</a>
+					</li>
+					<li>
+						<a href="#">Social</a>
+						<ul>
+							<li>
+								<a href = "https://twitter.com/TobiasABurns" target = "_blank"><img src ="Images/twitter.png" alt = "Twitter"/></a>
+							</li>
+							<li>
+								<a href = "https://www.facebook.com/toby.burns1" target = "_blank"><img src ="Images/facebook.png" alt = "Facebook"/></a>
+							</li>
+							<li>
+								<a href = "http://steamcommunity.com/id/thetoberius/" target = "_blank"><img src ="Images/steam.png" alt = "Steam"/></a>
+							</li>
+							<li>
+								<a href = "https://www.youtube.com/channel/UCvRYaeery86FDs6Kz454CgQ" target = "_blank"><img src ="Images/youtube.png" alt = "Youtube"/></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">About Me</a>
+						<ul>
+							<li>
+								<a href = "cv_W06.html">C.V.</a>
+							</li>
+							<li>
+								<a href = "books_W06.html">Books</a>
+							</li>
+							<li>
+								<a href = "music_W06.html">Music</a>
+							</li>
+							<li>
+								<a href = "games_W06.html">Games</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Other Stuff</a>
+						<ul>
+							<li>
+								<a href = "Cardsv1_W06.html">Unity</a>
+							</li>
+							<li>
+								<a href = "Tags_Wanted_W06.html">Tags</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div id = "style">
+					<button onclick="swapStyle('CSS/stylesheet_W06.css')">Default Style</button>
+					<button onclick="swapStyle('CSS/altstyle_W06.css')">Alternate Style</button>
+				</div>
+			</nav>
+		</header>
+		<div id = "uheader"></div>
+		<div id = "wrapper">
+			<section id = "main">
+				<article>
+					<h1>Home</h1>
+					<p>Welcome to my website. This was created as part of a college module in order to learn HTML, CSS and Javascript.
+					I picked myself as my theme because who else would I want to talk about!?? Have a look around, there isn't much to see just 
+					some stuff about what I do and what I like. As you can see that is indeed me on the right in those pictures. I know, I know 
+					what a handsome devil. And now some people in their attempts to get famous have requested a space on this god forsaken website.</p>
+					<img src="Images/Andrew.jpg" alt = "Photo" Title = "Andy Pandy"/>
+					<p class = "description">Here is my housemate Andrew Gallagher, not so much of a looker but you know the poor lad, he tries so hard.</p>
+					<img src="Images/Mark.jpg" alt = "Photo" Title = "Maracoose"/>
+					<p class = "description">Mark Desmond because no website is complete without him.</p>
+					<img src="Images/Dave.jpg" alt = "Photo" Title = "Rank"/>
+					<p class = "description">David Flynn, technically didn't request but I know he wants to be here.</p>
+					<img src="Images/Eoghan.jpg" alt = "Photo" Title = "Owen"/>
+					<p class = "description">Yohan Dennehy, all the way from Norway this lad. Once again he didn't need to tell me he wanted to be here.</p>
+					<p>Well that's that, hope you have a nice time on the rest of the site, I recommend the music page mostly but I'm sure that 
+					wont be to everybody's taste.</p>
+					<p>Signing Off,<br>
+					Sir Tobias A. Burns of The Dirty Oak Grove.</p>
+				</article>
+				<section class = "right">
+					<table>
+						<thead>
+							<tr>
+								<th class = "top"/>
+								<th class = "top"/>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="Images/pic1.jpg" alt = "Photo"/>
+								</td>
+								<td>
+									<img src="Images/pic2.jpg" alt = "Photo" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="Images/pic3.jpg" alt = "Photo" />
+								</td>
+								<td>
+									<img src="Images/pic4.jpg" alt = "Photo" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="Images/pic5.jpg" alt = "Photo" />
+								</td>
+								<td>
+									<img src="Images/pic6.jpg" alt = "Photo" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<iframe title="spotify" class="spotify" src="https://embed.spotify.com/?uri=spotify:album:7HOzvP7Ta2lLueojdlJtdZ"></iframe>
+					<h2>Wanted</h2>
+					<img src="Images/Wanted.jpg" alt = "Photo" Title = "Who even is this??!"/>
+					<p>For crimes which I'm pretty sure I shouldn't mention on here...</p>
+				</section>
+			</section>
+		</div>
+		<footer>
+			<p>&#169; Tobias Burns.</p>
+				<address>
+					Contact: <a href="mailto:tobias.burns.2014@nuim.ie">Email</a>, 
+					<a href="https://2015.moodle.maynoothuniversity.ie/message/index.php">Moodle</a>
+				</address>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,125 @@
+div{
+    background-color:#FFFFFF;
+}
+html, body{
+	background-color:#FFFFFF;
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+header{
+	top:0;
+    position:absolute;
+    z-index:100;
+    width:100%;
+    height:40px;
+	background-color:#000000;
+}
+#uheader{
+	top:0;
+	position:absolute;
+    z-index:1;
+    width:100%;
+    height:45px;
+	background-color:#3299CC;
+}
+header nav ul{
+	margin:0 auto;
+	list-style:none;
+}
+header nav ul li{
+	display:inline;
+}
+/*Header link styles colour*/
+header ul li:nth-child(-n+5) a:link, header ul li:nth-child(-n+5) a:visited, header ul li:nth-child(-n+5) a:active, header ul li:nth-child(-n+5) a:hover{
+	text-decoration:none;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#3299CC;
+	font-size:25px;
+	background-color:transparent;
+	float:left;
+	margin:2px 0 0 0;
+	padding:0;
+}
+header img{
+	height:30px;
+	width:auto;
+	margin:3px 0 0 10px;
+}
+/*Header link styles colour*/
+header  a:link, header a:visited, header a:active{
+	float:right;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:15px;
+	margin:8px 20px 0 0;
+	padding:2px;
+}
+header nav ul a:hover{
+	color:#000000;
+	background-color:#FFFFFF;
+	border-radius:3px;
+	padding:2px;
+}
+address{
+	position:relative;
+	color:#FFFFFF;
+	display:inline;
+}
+address a:link, address a:active, address a:hover, address a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+footer p{
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	margin-left:40px;
+}
+footer{
+	margin-top:-30px;
+    clear: both;
+	position: relative;
+	z-index: 10;
+	height: 30px;
+	background-color:#000000;
+	width:100%;
+	padding-top:12px;
+}
+#wrapper{
+	min-height:100%;
+	max-width:100%;
+}
+.unity{
+    position:relative;
+	margin:10% 0 0 0;
+	padding:30px 0 0 0;
+	overflow:auto;
+}
+div.broken, div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a, div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img, div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+div#unityPlayer {
+	cursor: default;
+	height: 640px;
+	width: 512px;
+	margin-left: auto;
+    margin-right: auto;
+}
